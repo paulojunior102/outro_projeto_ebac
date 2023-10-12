@@ -1,0 +1,79 @@
+body {
+  font-family: "Pacifico", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar {
+  background-color: #aabadd;
+}
+.nav .nav-link.active {
+  background-color: #fff;
+  color: black;
+}
+.nav .nav-link {
+  color: black;
+}
+.navbar-brand,
+h1 {
+  text-shadow: red -5px 0, cyan 5px 0;
+  text-decoration: underline;
+}
+.navbar-toggler {
+  background-color: #f80707;
+}
+
+.ajuste {
+  justify-content: center;
+}
+#color {
+  color: #55bfe9;
+}
+#sobre-a-empresa {
+  background-color: #fff;
+}
+
+.nav .nav-link.active {
+  background-color: #497fbf;
+  color: #02090d;
+}
+#animais,
+.nav .nav-link {
+  color: #110d0d;
+}
+.nav-animais .nav-link.nav-link.active {
+  background-color: #497fbf;
+}
+#ajuste ul li {
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}
+
+div:hover:not(:hover) {
+  opacity: 0.3;
+}
+img:hover {
+  scale: 1.1;
+}
+button {
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn {
+  transition: transform 1s ease-in;
+  transition: background-color 1s ease-in;
+}
+.btn:hover {
+  color: black;
+  background-color: #aabadd;
+  transform: scale(1.1);
+}
+#trabalhe-conosco {
+  background-color: #7c9bcf;
+}
+#animais {
+  background-color: #aabadd;
+}
